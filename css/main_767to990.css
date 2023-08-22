@@ -1,0 +1,228 @@
+@charset "utf-8";
+
+@media (min-width:767px) and (max-width:990px) {
+
+/* 메인이미지 */
+        #mainImage {width:100%; height:592px; background-image: url("../img/big1_1.jpg");  background-repeat: no-repeat; background-size: 100% 100%;}
+            #mainImage > div {width:100%; position: absolute; top: 32%; left: 50%; transform: translate(-50%, -50%); text-align: center;}
+            #mainImage > div > h1 {font-size: 48px; font-family: "Lustria", serif; color:#fff; margin: 15px 0;}
+            #mainImage > div > p {font-size: 13px; font-weight: bold; color:#fff;}
+            #mainImage > div > p > span {padding: 0 12px;}
+
+
+        /* 셰프소개 */
+        #ourStory {width:100%; height:1301px; padding:128px 0; }
+            #ourStory > #content {width:720px; height:1055px; margin:0 auto; display: flex; flex-direction: column; justify-content: space-between; }
+                #ourStory > #content > #leftBox1 {width:720px; height:335px; padding: 0 15px; }
+                    #ourStory > #content > #leftBox1 > span {font-size: 12px; color:#B5A46D; background-color: #F7F6F0; display: inline-block; padding: 8px 16px; margin: 0 0 16px; border-radius: 20px;}
+                    #ourStory > #content > #leftBox1 > h2 {width:690px; height:84px; font-size: 28px; font-family: "Lustria", serif; margin:0 0 16px; color:#111; letter-spacing: -1px; line-height: 45px;}
+                    #ourStory > #content > #leftBox1 > p {width:690px; height:77px; font-size: 15px; margin: 0 0 16px; color:#999; letter-spacing: 0.1px; line-height: 25px;}
+                    #ourStory > #content > #leftBox1 > div {width:690px; height:64px; display: flex;}
+                        #ourStory > #content > #leftBox1 > div > img {width:64px; height:64px; margin:0 16px 0 0; border-radius: 100%; ;}
+                        #ourStory > #content > #leftBox1 > div > #text {width:610px; height:50px; margin: auto 0; }
+                            #ourStory > #content > #leftBox1 > div > #text > h4 {width:610px; height:24px; font-size: 16px; color:#111; letter-spacing: 1px;}
+                            #ourStory > #content > #leftBox1 > div > #text > p {width:610px; height:26px; font-size: 15px; color:#999; line-height: 15px;}
+                #ourStory > #content > #rightBox1 {width:698px; height:698px; display: flex; flex-wrap: wrap; align-items: flex-end; margin:0 auto;}
+                    #ourStory > #content > #rightBox1 > #rightBox1_1 {width:349px; height:341px; margin:0 0 8px 58px; padding:0 4px; position: relative;}
+                    #ourStory > #content > #rightBox1 > #rightBox1_1:hover .plus {opacity: 1; transition: 0.5s;}
+                        #ourStory > #content > #rightBox1 > #rightBox1_1 > a > img {width:341px; height:341px;}
+                        #ourStory > #content > #rightBox1 > #rightBox1_1 > a > .plus {width:36px; height:36px; background-color:#B5A46D; border-radius: 100%; position: absolute; top:45%; left:45%; opacity: 0; transition: 0.5s; display: flex; justify-content: center; align-items: center;}
+                            #ourStory > #content > #rightBox1 > #rightBox1_1 > a > .plus > i {font-size: 24px; color:#fff; position: relative;}
+                    #ourStory > #content > #rightBox1 > #rightBox1_2 {width:291px; height:268px; margin:0 0 8px; padding: 0 4px; position: relative; text-align: center;} 
+                    #ourStory > #content > #rightBox1 > #rightBox1_2:hover .plus {opacity: 1; transition: 0.5s;}
+                        #ourStory > #content > #rightBox1 > #rightBox1_2 > a > img {width:283px; height:268px;}
+                        #ourStory > #content > #rightBox1 > #rightBox1_2 > a > .plus {width:36px; height:36px; background-color:#B5A46D; border-radius: 100%; position: absolute; top:45%; left:45%; opacity: 0; transition: 0.5s; display: flex; justify-content: center; align-items: center;}
+                            #ourStory > #content > #rightBox1 > #rightBox1_2 > a > .plus > i {font-size: 24px; color:#fff; position: relative;}
+                    #ourStory > #content > #rightBox1 > #rightBox1_3 {width:291px; height:341px; margin:0 0 8px; padding:0 4px; position: relative;}
+                    #ourStory > #content > #rightBox1 > #rightBox1_2:hover .plus {opacity: 1; transition: 0.5s;}
+                        #ourStory > #content > #rightBox1 > #rightBox1_3 > a > img {width:283px; height:268px;}
+                        #ourStory > #content > #rightBox1 > #rightBox1_3 > a > .plus {width:36px; height:36px; background-color:#B5A46D; border-radius: 100%; position: absolute; top:32%; left:42%; opacity: 0; transition: 0.5s; display: flex; justify-content: center; align-items: center;}
+                            #ourStory > #content > #rightBox1 > #rightBox1_3 > a > .plus > i {font-size: 24px; color:#fff; position: relative;}
+                    #ourStory > #content > #rightBox1 > #rightBox1_4 {width:349px; height:341px; margin:0 0 8px; padding:0 4px; position: relative;}
+                    #ourStory > #content > #rightBox1 > #rightBox1_4:hover .plus {opacity: 1; transition: 0.5s;}
+                        #ourStory > #content > #rightBox1 > #rightBox1_4 > a > img {width:341px; height:341px}
+                        #ourStory > #content > #rightBox1 > #rightBox1_4 > a > .plus {width:36px; height:36px; background-color:#B5A46D; border-radius: 100%; position: absolute; top:45%; left:45%; opacity: 0; transition: 0.5s; display: flex; justify-content: center; align-items: center;}
+                            #ourStory > #content > #rightBox1 > #rightBox1_4 > a > .plus > i {font-size: 24px; color:#fff; position: relative;}
+
+
+        /* 예약1 */                    
+        #reservation {width:100%; height:1287px; display: flex; flex-direction:column; }
+            #reservation > #innerBook {width:100%; height:537px;  padding:24px; background-color:#F9F5EC;}
+                #reservation > #innerBook > #card {width:100%; height:100%;  border:1px solid #717171;}
+                    #reservation > #innerBook > #card > #cardContent {width:100%; height:100%; padding:100px 64px 64px; text-align: center;}
+                        #reservation > #innerBook > #card > #cardContent > img {width:96px; height:96px; margin:0 0 16px;}
+                        #reservation > #innerBook > #card > #cardContent > h1 {width:100%; height:48px; color:#111; margin:0 0 8px; font-size: 32px; font-family: "Lustria", serif; text-align: center;}
+                        #reservation > #innerBook > #card > #cardContent > p {width:70%; height:56px; color:#999; margin: 0 auto 16px; font-size: 16.5px;}
+                        #reservation > #innerBook > #card > #cardContent > button {width:160px; height:51px;color:#fff; padding:15px 16px; font-size: 11px; background-color: #252525; border:none; border-radius: 5px; letter-spacing: 2px;}
+                        #reservation > #innerBook > #card > #cardContent > button:hover {cursor: pointer;}
+            #innerPhoto {width:100%; height:750px; padding: 0 0 0 8px; overflow: hidden;}
+                #innerPhoto > img {width:1600px; height:750px;}
+
+
+        /* 스페셜 메뉴 */
+        #specialMenu {width:100%; height:1513px; padding:128px 0;}
+            #specialMenu > #menuExplaination {width:690px; height:225px; margin: 0 auto 32px; padding: 0 0 32px; text-align: center;}
+                #specialMenu > #menuExplaination > span {font-size: 12px; color:#B5A46D; background-color: #F7F6F0; display: inline-block; padding: 8px 16px; margin: 0 0 16px; border-radius: 20px;}
+                #specialMenu > #menuExplaination > h1 {width:100%; height:48px; font-size: 32px; font-family: "Lustria", serif; margin:0 0 8px; }
+                #specialMenu > #menuExplaination > p {width:100%; height:84px; font-size: 16.5px; color:#999;  text-align: center;}
+            #specialMenu > #menuBox {width:720px; height:1000px; margin:0 auto; padding:0 15px; }
+                #specialMenu > #menuBox > #menuMenu {width:690px; height:1000px; box-shadow: 0 0 10px gray; display: flex; flex-wrap: wrap;}
+                    #specialMenu > #menuBox > #menuMenu > .menuBox1 {width:690px; height:500px; display: flex; flex-direction: column;}
+                        #specialMenu > #menuBox > #menuMenu > .menuBox1 > .menuBoxInner {width:690px; height:250px; display: flex; }
+                            #specialMenu > #menuBox > #menuMenu > .menuBox1 > .menuBoxInner > .menuSubject {width:345px; height:210px; padding:40px 45px; text-align: center; margin:auto 0;}
+                                #specialMenu > #menuBox > #menuMenu > .menuBox1 > .menuBoxInner > .menuSubject > h3 {width:100%; height:30px; color:#111; font-size: 20px; margin:0 0 8px; line-height: 30px; letter-spacing: 1px;}
+                                #specialMenu > #menuBox > #menuMenu > .menuBox1 > .menuBoxInner > .menuSubject > p {width:100%; height:51px; color:#999; font-size: 15px; margin:0 0 16px; line-height: 25px;}
+                                #specialMenu > #menuBox > #menuMenu > .menuBox1 > .menuBoxInner > .menuSubject > span > a {width:118px; height:13px; color:#B5A46D; font-size: 12px; font-weight: bold; margin:0;}
+                            #specialMenu > #menuBox > #menuMenu > .menuBox1 > .menuBoxInner > .menuImg {width:345px; height:250px;}
+                                #specialMenu > #menuBox > #menuMenu > .menuBox1 > .menuBoxInner > .menuImg > img {width:100%; height:100%;}
+
+
+        
+        /* 슬라이더 */
+        #slider {width:100%; height:516px; background-image: url("../img/slider1_1.jpg"); background-size: cover; background-position: center; position: relative;}
+            #slider > #sliderBox {width:100%; height:300px;  position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+                #slider > #sliderBox > #slider1 {width:540px; height:254px; background-color: #181818; padding:24px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+                #slider > #sliderBox > #left {width:10px; height:21px; position: absolute; top: 50%; left: 5%; transform: translate(-50%, -50%);}
+                    #slider > #sliderBox > #right {width:10px; height:21px; position: absolute; top: 50%; left: 95%; transform: translate(-50%, -50%);}
+                        #slider > #sliderBox > #slider1 > #slider2 {width:492px; height:206px; border: 1px solid #717171; text-align: center; padding:35px}
+                        #slider > #sliderBox > #slider1 > #slider2 > h4 {width:426px; height:24px; color:#fff; font-family: "Lustria", serif; margin:0 auto 20px; }
+                        #slider > #sliderBox > #slider1 > #slider2 > p {width:426px; height:51px; color:#fff; margin:0 auto 16px;}
+                        #slider > #sliderBox > #slider1 > #slider2 > div {width:426px; height:15px; color:aqua; margin:0 auto;}
+                        #slider > #sliderBox > #slider1 > #slider2 > div > img {width:17px; height:15px;}
+
+
+        /* foxeresto 메뉴 */
+        #foxerestoMenu {width:100%; height:938px; padding:128px 0; }
+            #foxerestoMenuTop {width:690px; height:224px; margin:0 auto 32px; padding:0 0 32px; text-align: center;}
+                #foxerestoMenuTop > span {font-size: 12px; color:#B5A46D; background-color: #F7F6F0; display: inline-block; padding: 8px 16px; margin: 0 0 16px; border-radius: 20px;}
+                #foxerestoMenuTop > h1 {width:690px; height:48px; color:#111; font-size: 32px; text-align: center; font-family: "Lustria", serif; margin:0 0 8px;}
+                #foxerestoMenuTop > p  {width:690px; height:56px; color:#999; font-size: 16.5px; text-align: center; }
+            
+            #foxerestoMenuCenter {width:720px; height:90px; margin: 0 auto; text-align: center;}
+                #foxerestoMenuCenter > ul {width:388px; height:58px; margin:0 auto 32px; padding:15px 0 32px;  display: flex;}
+                    #foxerestoMenuCenter > ul > li:after {content:"~"; color:#A29260; margin:0 14px;}
+                    #foxerestoMenuCenter > ul > li:last-child:after {content:none;}
+                    #foxerestoMenuCenter > ul > li > a {color:#A29260; font-size:11.5px; padding:0 18.8px; }
+
+            #foxerestoMenuList {width:720px; height:336px; margin: 0 auto;}
+                #foxerestoMenuList > #menuList {width:480px; height:336px; padding:0 15px; margin:0 auto;}
+                    #foxerestoMenuList > #menuList > .list {width:480px; height:48px; margin:0 0 24px;}
+                        #foxerestoMenuList > #menuList > .list > img {width:48px; height:48px; margin:0 16px 0 0; border-radius: 100%;}
+                        #foxerestoMenuList > #menuList > .list > .listText {width:400px; height:46px; float:right;}
+                        #foxerestoMenuList > #menuList > .list > .listText > h6 {width:386px; height:23px; }
+                        #foxerestoMenuList > #menuList > .list > .listText > h6 > .menuName {font-size: 15px; }
+                        
+                        #foxerestoMenuList > #menuList > .list > .listText > h6 > .price {font-size: 14px;  float: right;}
+                        #foxerestoMenuList > #menuList > .list > .listText > p {width:386px; height:23px; font-size: 14px; color:#999;}
+
+
+        /* 갤러리 */
+        #gallery {width:100%; height:1767px; padding:128px 0; background-color:#F9F5EC; }
+        #gallery > #galleryBackground {width:720px; height:1511px; margin:0 auto; padding:0 15px; }
+        #gallery > #galleryBackground > #galleryImg {width:698px; height:1396px; margin:0 -4px; display: flex; flex-wrap: wrap; justify-content: space-around;}
+        #gallery > #galleryBackground > #galleryImg > .firstImg {width:349px; height:341px; margin:0 0 8px; padding:0 4px; position: relative;}
+        #gallery > #galleryBackground > #galleryImg > .firstImg:hover .plus2 {opacity: 1; transition: 0.5s;}
+        #gallery > #galleryBackground > #galleryImg > .firstImg > a > .plus2 {width:36px; height:36px; background-color:#B5A46D; border-radius: 100%; position: absolute; top:45%; left:45%; opacity: 0; transition: 0.5s; display: flex; justify-content: center; align-items: center;}
+        #gallery > #galleryBackground > #galleryImg > .firstImg > a > .plus2 > i {font-size: 24px; color:#fff;}
+        #gallery > #galleryBackground > #galleryImg > .firstImg > a > img {width:341px; height:341px; margin: 0 0 8px; padding: 0 4px;}
+        #gallery > #galleryBackground > #galleryImg > .lastImg {width:349px; height:349px; margin:0 0 8px; padding:0 4px; position: relative;}
+        #gallery > #galleryBackground > #galleryImg > .lastImg:hover .plus2 {opacity: 1; transition: 0.5s;}
+        #gallery > #galleryBackground > #galleryImg > .lastImg:nth-child(5) {height: 341px;}
+        #gallery > #galleryBackground > #galleryImg > .lastImg:nth-child(6) {height: 341px;}
+        #gallery > #galleryBackground > #galleryImg > .lastImg > a > img {width:341px; height:341px; margin: 0 0 8px; padding: 0 4px;}
+        #gallery > #galleryBackground > #galleryImg > .lastImg > a > .plus2 {width:36px; height:36px; background-color:#B5A46D; border-radius: 100%; position: absolute; top:45%; left:45%; opacity: 0; transition: 0.5s; display: flex; justify-content: center; align-items: center;}
+        #gallery > #galleryBackground > #galleryImg > .lastImg > a > .plus2 > i {font-size: 24px; color:#fff;}
+
+        #gallery > #galleryBackground > #lookBook {width:720px; height:115px; margin:0 -15px;  display: flex; flex-direction: column;}
+        #gallery > #galleryBackground > #lookBook > #lookdiv {width:190px; height:115px;  margin:0 auto;}
+        #gallery > #galleryBackground > #lookBook > #lookdiv > #lookButton {width:160px; height:83px;  margin:32px auto 0; padding:32px 0 0; text-align: center; }
+        #gallery > #galleryBackground > #lookBook > #lookdiv > #lookButton > button {width:160px; height:51px; background-color: #252525; border: none; border-radius: 10px; color:#fff; font-size: 11px; letter-spacing:2px; font-weight: bold;}
+        
+
+        /* 서비스 */
+        #customerServices {width:100%; height:1080px; padding:128px 0; }
+        #customerServices > #textTop {width:690px; height:225px; margin:0 auto 32px; padding: 0 0 32px; text-align: center;}
+        #customerServices > #textTop > span {font-size: 12px; color:#B5A46D; background-color: #F7F6F0; display: inline-block; padding: 8px 16px; margin: 0 0 16px; border-radius: 20px;}
+        #customerServices > #textTop > h1 {width:690px; height:48px; color:#111; font-size: 32px; font-family: "Lustria", serif; margin:0 0 8px;}
+        #customerServices > #textTop > p {width:276px; height:84px; font-size: 16.5px; color:#999; margin:0 auto;}
+
+        #customerServices > #textCenter {width:720px; height:425px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between;}
+        #customerServices > #textCenter > .services {width:360px; height:197px; padding:0 15px; text-align: center;}
+        #customerServices > #textCenter > .services > img {width:40px; height:40px; margin:0 0 16px;}
+        #customerServices > #textCenter > .services > h4 {height:24px; font-size: 16px; color:#111; margin:0 0 8px;}
+        #customerServices > #textCenter > .services > p {width:330px; font-size: 15px; color:#999; margin:0 auto; text-align: center; line-height: 25px;}
+
+        #customerServices > #textBottom {width:720px; height:143px; margin:0 auto;}
+        #customerServices > #textBottom > #textBottomContent {width:360px; height:143px; margin:0 auto; padding:0 15px;}
+        #customerServices > #textBottom > #textBottomContent > #linebox {width:330px; height:34px; margin:16px 0; padding:16px 0;}
+        #customerServices > #textBottom > #textBottomContent > #linebox > #line {width:90px; height:2px; background-color:#B5A46D; margin: 0 auto;}
+        #customerServices > #textBottom > #textBottomContent > p {width:330px; height:77px; color:#999; font-size: 15px; text-align: center;}
+
+
+        #book {width:100%; height:1016px; position: relative; background-image: url("../img/book.jpg"); background-position: center; background-size: cover;}
+        #book > #inputBox {width:720px; height:728px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: white; display: flex;}
+        #book > #inputBox > #table {width:720px; height:728px; padding:0 15px; }
+        #book > #inputBox > #table > #tableInner {width:690px; height:728px; padding:48px; }
+        #book > #inputBox > #table > #tableInner > #tableTop {width:594px; height:197px; margin:0 0 32px; padding:0 0 32px; }
+        #book > #inputBox > #table > #tableInner > #tableTop > span {font-size: 12px; color:#B5A46D; background-color: #F7F6F0; display: inline-block; padding: 8px 16px; margin: 0 0 16px; border-radius: 20px;}
+        #book > #inputBox > #table > #tableInner > #tableTop > h1 {width:514px; height:48px; font-size: 32px; font-family: "Lustria", serif; margin:0 0 8px;} 
+        #book > #inputBox > #table > #tableInner > #tableTop > p {width:386px; height:56px; color:#999; font-size: 16.5px;}
+
+        #book > #inputBox > #table > #tableInner > #input {width:624px; height:403px;  display: flex; flex-wrap: wrap;}
+        #book > #inputBox > #table > #tableInner > #input > #inputContent {width:312px; height:86px; margin:0 0 32px; padding:0 15px; }
+        #book > #inputBox > #table > #tableInner > #input > #inputContent > label {width:282px; height:20px; color:#111; font-size: 11.5px; margin:0 0 16px; display: inline-block;}
+        #book > #inputBox > #table > #tableInner > #input > #inputContent > input {width:282px; height:50px; padding: 12px 16px; border-radius: 5px; border:1px solid #b9b9b9;}
+        #book > #inputBox > #table > #tableInner > #input > #inputContent > input:focus {outline: none; border:1px solid #B5A46D; box-shadow: 0 0 10px rgb(172, 172, 172); transition: 0.4s;}
+        #book > #inputBox > #table > #tableInner > #input > #inputBottom {width:594px; height:51px; }
+        #book > #inputBox > #table > #tableInner > #input > #inputBottom > button {width:160px; height:51px; background-color: #252525; font-size: 11px; font-weight: bold; padding: 15px 16px; color:#fff; border: none; border-radius: 5px; letter-spacing:2px; font-weight: bold; margin:0 16px;}
+        #book > #inputBox > #table > #tableInner > #input > #inputBottom > button:hover{cursor: pointer;}
+
+        #book > #inputBox > #tableImg {display: none;}
+
+
+        /* 레시피 */
+        #deliciousRecipies {width:100%; height:1682px; padding:128px 0; }
+        #deliciousRecipies > #recipiesFirst {width:690px; height:224px; margin:0 auto 32px; padding: 0 0 32px; text-align: center;}
+        #deliciousRecipies > #recipiesFirst > span {font-size: 12px; color:#B5A46D; background-color: #F7F6F0; display: inline-block; padding: 8px 16px; margin: 0 0 16px; border-radius: 20px;}
+        #deliciousRecipies > #recipiesFirst > h1 {width:690px; height:48px; font-size: 32px; font-family: "Lustria", serif; margin:0 0 8px; }
+        #deliciousRecipies > #recipiesFirst > p {width:276px; height:57px; font-size: 16.5px; margin:0 auto; color:#999}
+
+        #deliciousRecipies > #blogBox {width:720px; height:1055px; margin:0 auto; display: flex; flex-wrap: wrap; justify-content: space-around;}
+        #deliciousRecipies > #blogBox > .blog {width:360px; height:493px; padding: 0 15px; margin:0 0 32px;}
+        #deliciousRecipies > #blogBox > .blog > .blogCard {width:330px; height:493px; border-radius: 5px; display: flex; flex-direction: column; border-radius: 15px; overflow: hidden; border: 1px solid #eee;} 
+        #deliciousRecipies > #blogBox > .blog > .blogCard > img {width:328px; height:219px;}
+        #deliciousRecipies > #blogBox > .blog > .blogCard > .blogContent {width:328px; height:308px; padding:32px; }
+        #deliciousRecipies > #blogBox > .blog > .blogCard > .blogContent > .subject {width:264px; height:24px; display: flex; justify-content: space-between; margin: 0 0 16px;}
+        #deliciousRecipies > #blogBox > .blog > .blogCard > .blogContent > .subject > .smallSubject {width:160px; height:24px;  display: flex;}
+        #deliciousRecipies > #blogBox > .blog > .blogCard > .blogContent > .subject > .smallSubject > .smallSubjectInner {width:50px; height:24px;   margin: 0 8px 0 0;}
+        #deliciousRecipies > #blogBox > .blog > .blogCard > .blogContent > .subject > .smallSubject > .smallSubjectInner > a {width:47px; height:17px; color:#B5A46D; font-size: 13.5px;}
+        #deliciousRecipies > #blogBox > .blog > .blogCard > .blogContent > .subject > .smallSubject > .date {width:100px; height:24px; color:#B0B0B0; font-size: 13.5px; margin:3px 0 0 0;}
+        #deliciousRecipies > #blogBox > .blog > .blogCard > .blogContent > .subject > .like {color:#B5A46D; font-size: 12px; background-color: #F9F5EC; padding:3px 9.6px;  border-radius: 7px; }
+        #deliciousRecipies > #blogBox > .blog > .blogCard > .blogContent > h4 {margin:0 0 8px}
+        #deliciousRecipies > #blogBox > .blog > .blogCard > .blogContent > h4 > a {width:264px; height:72px; font-size: 24px; font-family: "Lustria", serif; color:black;;}
+        #deliciousRecipies > #blogBox > .blog > .blogCard > .blogContent > h4 > a:hover {color:#B5A46D; transition: 0.5s;}
+        #deliciousRecipies > #blogBox > .blog > .blogCard > .blogContent > p {width:264px; height:78px; color:#999; font-size: 15px; margin:0 0 16px; line-height: 25px;}
+        #deliciousRecipies > #blogBox > .blog > .blogCard > .blogContent > .writter {width:264px; height:32px; display: flex;}
+        #deliciousRecipies > #blogBox > .blog > .blogCard > .blogContent > .writter > img {width:32px; height:32px; margin:0 8px 0 0; border-radius: 100%;}
+        #deliciousRecipies > #blogBox > .blog > .blogCard > .blogContent > .writter > .blogger {width:224px; height:26px; margin:auto 0;}
+        #deliciousRecipies > #blogBox > .blog > .blogCard > .blogContent > .writter > .blogger > span {font-size: 13.5px; color:#B0B0B0;}
+        #deliciousRecipies > #blogBox > .blog > .blogCard > .blogContent > .writter > .blogger > span > a {font-size: 13.5px; color:#4D4D4D;}
+
+        #deliciousRecipies > #blogBox > .blog > #blogCard2 {width:330px; height:493px; padding: 32px; background-color:#B5A46D; padding:32px; display: flex; flex-direction: column; justify-content: space-between;  border-radius: 15px; overflow: hidden;}
+        #deliciousRecipies > #blogBox > .blog > #blogCard2 > .subject {width:224px; height:24px;  display: flex; justify-content: space-between; margin: 0 0 16px;}
+        #deliciousRecipies > #blogBox > .blog > #blogCard2 > .subject > .smallSubject {width:160px; height:24px;  display: flex;}
+        #deliciousRecipies > #blogBox > .blog > #blogCard2 > .subject > .smallSubject > .smallSubjectInner {width:50px; height:24px;   margin: 0 8px 0 0;}
+        #deliciousRecipies > #blogBox > .blog > #blogCard2 > .subject > .smallSubject > .smallSubjectInner > a {width:47px; height:17px; color:#fff; font-size: 13.5px;}
+        #deliciousRecipies > #blogBox > .blog > #blogCard2 > .subject > .smallSubject > .date {width:100px; height:24px; color:#fff; font-size: 13.5px; margin:3px 0 0 0;}
+        #deliciousRecipies > #blogBox > .blog > #blogCard2 > .subject > .like {color:#B5A46D; font-size: 12px; background-color: #F9F5EC; padding:3px 9.6px;  border-radius: 7px; }
+        #deliciousRecipies > #blogBox > .blog > #blogCard2 > #blogContentBox {width:266px; height:213px; }
+        #deliciousRecipies > #blogBox > .blog > #blogCard2 > #blogContentBox > h2 {width:100%; height:180px; margin:0 0 8px; font-size: 24px; font-family: "Lustria", serif; color:#fff; line-height: 35px;}
+        #deliciousRecipies > #blogBox > .blog > #blogCard2 > #blogContentBox > span {width:86px; height:16px; font-size: 13.5px; color:#fff;}
+
+
+        #deliciousRecipies > #allPost {width:690px; height:84px; margin:32px auto 0;  padding:32px 0 0; }
+        #deliciousRecipies > #allPost > #blogPost {margin:0 auto; text-align: center; }
+        #deliciousRecipies > #allPost > #blogPost > button {width:160px; height:52px; color:#181818; font-size: 11px; background-color: #F1F1F1; padding:15px 16px; margin:0 auto; border: none; border-radius: 5px; letter-spacing: 2px;}
+
+
+}

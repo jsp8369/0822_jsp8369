@@ -1,0 +1,261 @@
+@charset "utf-8";
+
+@media (min-width:701px) {
+
+        /* 메인이미지 */
+        #mainImage {width:100%; height:400px; background-image: url("../img/big3_1.jpg");  background-repeat: no-repeat; background-size:cover;}
+        #mainImage > div {width:100%; height:100px; position: absolute; text-align: center; margin:150px 0;}
+        #mainImage > div > h1 {font-size: 50px; font-family: "Lustria", serif; color:#fff; margin: 15px 0;}
+        #mainImage > div > p {font-size: 14px; font-weight: bold; color:#fff;}
+        #mainImage > div > p > span {padding: 0 12px; color:#fff;}
+
+        /*서브*/
+        #wrap {width:100%; height:auto; margin:0 auto;}
+
+        /*메인 바*/
+        #wrap > #mainBar {width:100%; height:auto; display: flex; flex-wrap: wrap; justify-content: center;}
+
+
+        /*블로그1*/
+        #wrap > #mainBar > #blog1 {width:46%; height:auto; margin:5% 1% 0; display: flex; flex-direction: column;}
+        #wrap > #mainBar > #blog1 > h4 {width:100%; height:44px; font-size: 20px; font-family: "Lustria", serif; margin:0 0 8px; padding:10px 0;}
+        #wrap > #mainBar > #blog1 > img {width:100%; height:220px; z-index: 3;}
+        #wrap > #mainBar > #blog1 > #content1 {width:95%; height:auto; margin:0 2%; padding:20px; box-shadow: 4px 4px 4px 5px #e4e3e3;}
+        #wrap > #mainBar > #blog1 > #content1 > h3 {width:100%; height:auto; font-size: 28px; font-family: "Lustria", serif; margin:0 0 8px;}
+        #wrap > #mainBar > #blog1 > #content1 > ul {width:100%; height:21px; margin:3% 0; display: flex; font-size: 14px;}
+        #wrap > #mainBar > #blog1 > #content1 > ul > li {width:auto; height:21px; margin: 0 15px 0 0;}
+        #wrap > #mainBar > #blog1 > #content1 > ul > li > img {width:18px; height:16px;}
+        #wrap > #mainBar > #blog1 > #content1 > p {width:100%; height:auto; margin:0 0 16px; font-size: 14px; line-height: 1.3;}
+        #wrap > #mainBar > #blog1 > #content1 > #content1Bottom {width:100%; height:37px; display: flex; justify-content: space-between;}
+        #wrap > #mainBar > #blog1 > #content1 > #content1Bottom > p {width:auto; height:21px; margin:0 0 auto; display: flex;}
+        #wrap > #mainBar > #blog1 > #content1 > #content1Bottom > p > a {color:#C00A27; font-size: 14px;}
+        #wrap > #mainBar > #blog1 > #content1 > #content1Bottom > p > a > img {width:14px; height:16px;}
+        #wrap > #mainBar > #blog1 > #content1 > #content1Bottom > ul {width:53%; height:24px; margin:0 0 16px; display: flex; justify-content: flex-end;}
+        #wrap > #mainBar > #blog1 > #content1 > #content1Bottom > ul > li {width:auto; height:24px; margin:0 8% 0 0;}
+        #wrap > #mainBar > #blog1 > #content1 > #content1Bottom > ul > li > a > img {width:12px; height:16px;}
+        #wrap > #mainBar > #blog1 > #content1 > #content1Bottom > ul > li > a > .twitter {width:16px;}
+        #wrap > #mainBar > #blog1 > #content1 > #content1Bottom > ul > li > a > .Instagram {width:14px;}
+        #wrap > #mainBar > #blog1 > #content1 > #content1Bottom > ul > li > a > .pinterest {width:12px;}
+
+        /*블로그2*/
+        #wrap > #mainBar > #blog2 {width:46%; height:60%; margin:5% 1% 0; display: flex; flex-direction: column;}
+        #wrap > #mainBar > #blog2 > h4 {width:100%; height:44px; font-size: 20px; font-family: "Lustria", serif; margin:0 0 8px; padding:10px 0;}
+        #wrap > #mainBar > #blog2 > img {width:100%; height:220px; z-index: 3;}
+        #wrap > #mainBar > #blog2 > #content2 {width:95%; height:60%; margin:0 2%; padding:20px; box-shadow: 4px 4px 4px 5px #e4e3e3;}
+        #wrap > #mainBar > #blog2 > #content2 > h3 {width:100%; height:auto; font-size: 28px; font-family: "Lustria", serif; margin:0 0 8px;}
+        #wrap > #mainBar > #blog2 > #content2 > ul {width:100%; height:21px; margin:3% 0; display: flex; font-size: 14px;}
+        #wrap > #mainBar > #blog2 > #content2 > ul > li {width:auto; height:21px; margin: 0 15px 0 0;}
+        #wrap > #mainBar > #blog2 > #content2 > ul > li > img {width:18px; height:16px;}
+        #wrap > #mainBar > #blog2 > #content2 > p {width:100%; height:auto; margin:0 0 16px; font-size: 14px; line-height: 1.3;}
+        #wrap > #mainBar > #blog2 > #content2 > #content2Bottom {width:100%; height:37px; display: flex; justify-content: space-between;}
+        #wrap > #mainBar > #blog2 > #content2 > #content2Bottom > p {width:auto; height:21px; margin:0 0 auto; display: flex;}
+        #wrap > #mainBar > #blog2 > #content2 > #content2Bottom > p > a {color:#C00A27; font-size: 14px;}
+        #wrap > #mainBar > #blog2 > #content2 > #content2Bottom > p > a > img {width:14px; height:16px;}
+        #wrap > #mainBar > #blog2 > #content2 > #content2Bottom > ul {width:53%; height:24px; margin:0 0 16px; display: flex; justify-content: flex-end;}
+        #wrap > #mainBar > #blog2 > #content2 > #content2Bottom > ul > li {width:auto; height:24px; margin:0 8% 0 0;}
+        #wrap > #mainBar > #blog2 > #content2 > #content2Bottom > ul > li > a > img {width:12px; height:16px;}
+        #wrap > #mainBar > #blog2 > #content2 > #content2Bottom > ul > li > a > .twitter {width:16px;}
+        #wrap > #mainBar > #blog2 > #content2 > #content2Bottom > ul > li > a > .Instagram {width:14px;}
+        #wrap > #mainBar > #blog2 > #content2 > #content2Bottom > ul > li > a > .pinterest {width:12px;}
+
+        /*블로그3*/
+        #wrap > #mainBar > #blog3 {width:46%; height:auto; margin:5% 1% 0; display: flex; flex-direction: column;}
+        #wrap > #mainBar > #blog3 > h4 {width:100%; height:44px; font-size: 20px; font-family: "Lustria", serif; margin:0 0 8px; padding:10px 0;}
+        #wrap > #mainBar > #blog3 > img {width:100%; height:220px; z-index: 3;}
+        #wrap > #mainBar > #blog3 > #content3 {width:95%; height:auto; margin:0 2%; padding:20px; box-shadow: 4px 4px 4px 5px #e4e3e3;}
+        #wrap > #mainBar > #blog3 > #content3 > h3 {width:100%; height:auto; font-size: 28px; font-family: "Lustria", serif; margin:0 0 8px;}
+        #wrap > #mainBar > #blog3 > #content3 > ul {width:100%; height:21px; margin:3% 0; display: flex; font-size: 14px;}
+        #wrap > #mainBar > #blog3 > #content3 > ul > li {width:auto; height:21px; margin: 0 15px 0 0;}
+        #wrap > #mainBar > #blog3 > #content3 > ul > li > img {width:18px; height:16px;}
+        #wrap > #mainBar > #blog3 > #content3 > p {width:100%; height:auto; margin:0 0 16px; font-size: 14px; line-height: 1.3;}
+        #wrap > #mainBar > #blog3 > #content3 > #content3Bottom {width:100%; height:37px; display: flex; justify-content: space-between;}
+        #wrap > #mainBar > #blog3 > #content3 > #content3Bottom > p {width:auto; height:21px; margin:0 0 auto; display: flex;}
+        #wrap > #mainBar > #blog3 > #content3 > #content3Bottom > p > a {color:#C00A27; font-size: 14px;}
+        #wrap > #mainBar > #blog3 > #content3 > #content3Bottom > p > a > img {width:14px; height:16px;}
+        #wrap > #mainBar > #blog3 > #content3 > #content3Bottom > ul {width:53%; height:24px; margin:0 0 16px; display: flex; justify-content: flex-end;}
+        #wrap > #mainBar > #blog3 > #content3 > #content3Bottom > ul > li {width:auto; height:24px; margin:0 8% 0 0;}
+        #wrap > #mainBar > #blog3 > #content3 > #content3Bottom > ul > li > a > img {width:12px; height:16px;}
+        #wrap > #mainBar > #blog3 > #content3 > #content3Bottom > ul > li > a > .twitter {width:16px;}
+        #wrap > #mainBar > #blog3 > #content3 > #content3Bottom > ul > li > a > .Instagram {width:14px;}
+        #wrap > #mainBar > #blog3 > #content3 > #content3Bottom > ul > li > a > .pinterest {width:12px;}
+
+        /*블로그4*/
+        #wrap > #mainBar > #blog4 {width:46%; height:auto; margin:5% 1% 0; display: flex; flex-direction: column;}
+        #wrap > #mainBar > #blog4 > h4 {width:100%; height:44px; font-size: 20px; font-family: "Lustria", serif; margin:0 0 8px; padding:10px 0;}
+        #wrap > #mainBar > #blog4 > img {width:100%; height:220px; z-index: 3;}
+        #wrap > #mainBar > #blog4 > #content4 {width:95%; height:auto; margin:0 2%; padding:20px; box-shadow: 4px 4px 4px 5px #e4e3e3;}
+        #wrap > #mainBar > #blog4 > #content4 > h3 {width:100%; height:auto; font-size: 28px; font-family: "Lustria", serif; margin:0 0 8px;}
+        #wrap > #mainBar > #blog4 > #content4 > ul {width:100%; height:21px; margin:3% 0; display: flex; font-size: 14px;}
+        #wrap > #mainBar > #blog4 > #content4 > ul > li {width:auto; height:21px; margin: 0 15px 0 0;}
+        #wrap > #mainBar > #blog4 > #content4 > ul > li > img {width:18px; height:16px;}
+        #wrap > #mainBar > #blog4 > #content4 > p {width:100%; height:auto; margin:0 0 16px; font-size: 14px; line-height: 1.3;}
+        #wrap > #mainBar > #blog4 > #content4 > #content4Bottom {width:100%; height:37px; display: flex; justify-content: space-between;}
+        #wrap > #mainBar > #blog4 > #content4 > #content4Bottom > p {width:auto; height:21px; margin:0 0 auto; display: flex;}
+        #wrap > #mainBar > #blog4 > #content4 > #content4Bottom > p > a {color:#C00A27; font-size: 14px;}
+        #wrap > #mainBar > #blog4 > #content4 > #content4Bottom > p > a > img {width:14px; height:16px;}
+        #wrap > #mainBar > #blog4 > #content4 > #content4Bottom > ul {width:53%; height:24px; margin:0 0 16px; display: flex; justify-content: flex-end;}
+        #wrap > #mainBar > #blog4 > #content4 > #content4Bottom > ul > li {width:auto; height:24px; margin:0 8% 0 0;}
+        #wrap > #mainBar > #blog4 > #content4 > #content4Bottom > ul > li > a > img {width:12px; height:16px;}
+        #wrap > #mainBar > #blog4 > #content4 > #content4Bottom > ul > li > a > .twitter {width:16px;}
+        #wrap > #mainBar > #blog4 > #content4 > #content4Bottom > ul > li > a > .Instagram {width:14px;}
+        #wrap > #mainBar > #blog4 > #content4 > #content4Bottom > ul > li > a > .pinterest {width:12px;}
+
+        /*블로그 이미지*/
+        #wrap > #mainBar > #blogImg {width:95%; height:500px; margin:12% 0 7% 0}
+        #wrap > #mainBar > #blogImg > img {width:100%; height:100%;}
+
+        /*블로그5*/
+        #wrap > #mainBar > #blog5 {width:100%; height:auto; padding:25px 20px; border-top: 1px solid #eee; border-bottom: 1px solid #eee;}
+        #wrap > #mainBar > #blog5 > h3 {width:100%; height:34px; font-size: 28px; font-family: "Lustria", serif; margin:0 0 8px;}
+        #wrap > #mainBar > #blog5 > ul {width:100%; height:24px; margin:24px 0; display: flex;}
+        #wrap > #mainBar > #blog5 > ul > li {width:auto; height:24px; margin: 0 15px 0 0;}
+        #wrap > #mainBar > #blog5 > ul > li > img {width:14px; height:16px;}
+        #wrap > #mainBar > #blog5 > #p1 {width:100%; height:auto; margin: 0 0 16px; line-height: 1.4; font-size: 15px;}
+        #wrap > #mainBar > #blog5 > blockquote {width:100%; height:100px; margin:0 0 16px; border-left:8px solid #666;}
+        #wrap > #mainBar > #blog5 > blockquote::before { padding:5px; font-size: 56px; content:'"'; font-weight: bold; }
+        #wrap > #mainBar > #blog5 > blockquote > span {width:90%; display: block; float: right; margin:5px 0 0; line-height: 1.5;}
+        #wrap > #mainBar > #blog5 > #p2 {width:100%; height:auto; margin:0 0 16px; line-height: 1.4; font-size: 15px;}
+        #wrap > #mainBar > #blog5 > #p3 {width:100%; height:auto; margin:0 0 16px; line-height: 1.4; font-size: 15px;}
+        #wrap > #mainBar > #blog5 > #content5Bottom {width:100%; height:40px;}
+        #wrap > #mainBar > #blog5 > #content5Bottom > ul {width:100%; height:24px; margin:0 0 16px; display: flex;}
+        #wrap > #mainBar > #blog5 > #content5Bottom > ul > li {width:auto; height:24px; margin:0 19px 0 0;}
+        #wrap > #mainBar > #blog5 > #content5Bottom > ul > li > a > img {width:10px; height:16px;}
+        #wrap > #mainBar > #blog5 > #content5Bottom > ul > li > a > .twitter {width:16px;}
+        #wrap > #mainBar > #blog5 > #content5Bottom > ul > li > a > .Instagram {width:14px;}
+        #wrap > #mainBar > #blog5 > #content5Bottom > ul > li > a > .pinterest {width:12px;}
+
+        /*푸드 레시피*/
+        #wrap > #mainBar > #foodRecipes {width:95%; height:280px; margin:3% 0; padding:20px; }
+        #wrap > #mainBar > #foodRecipes > h3 {width:100%; height:34px; font-size: 28px; font-family: "Lustria", serif; margin:0 0 8px;} 
+        #wrap > #mainBar > #foodRecipes > .recipes {width:31%; height:180px; position: relative; margin:3% 0 0 1%; display:inline-block;}
+        #wrap > #mainBar > #foodRecipes > .recipes > img {width:100%; height:100%; }
+        #wrap > #mainBar > #foodRecipes > .recipes > .textbox {width:100%; height:100%; position: absolute; top:0; left:0; display: flex; justify-content: center; align-items: center; background-color: black; opacity: 0; transition: 0.5s;}
+        #wrap > #mainBar > #foodRecipes > .recipes > .textbox:hover {opacity: 0.5; transition: 0.6s; cursor: pointer;}
+        #wrap > #mainBar > #foodRecipes > .recipes > .textbox > h3 {width:58px; height:24px; font-family: "Lustria", serif; font-size: 20px; color:#fff; margin:0 0 8px;}
+
+
+        /*코멘트*/
+        #wrap > #mainBar > #comment {width:95%; height:400px; margin:42.5px 0; padding:20px; }
+        #wrap > #mainBar > #comment > h3 {width:100%; height:34px; margin:0 0 20px; font-size: 28px; font-family: "Lustria", serif;}
+        #wrap > #mainBar > #comment > #inputBox {display: flex;}
+        #wrap > #mainBar > #comment > #inputBox > #nameInput {width:33.3%; height:62px; padding:0 15px; display: flex; align-items: baseline; position: relative;}
+        #wrap > #mainBar > #comment > #inputBox > #nameInput:before {content: ""; background-image: url("../img/icon/pencil.png"); background-size:16px 16px; width:16px; height:16px; display:inline-block; position: absolute; top: 0; left: 0; margin:10px 0 0 -7px;}
+        #wrap > #mainBar > #comment > #inputBox > #nameInput > #name {width:100%; height:38px; padding:6px 12px; border:1px solid #ced4da; border-radius: 5px; transition: 0.3s;}
+        #wrap > #mainBar > #comment > #inputBox > #nameInput > #name:focus {box-shadow: 0px 0px 3px 3px #98caff; outline: none; border:1px solid #80BDFF; transition: 0.3s;}
+
+        #wrap > #mainBar > #comment > #inputBox > #numberInput {width:33.3%; height:62px; padding:0 15px; display: flex; align-items: baseline; position: relative;}
+        #wrap > #mainBar > #comment > #inputBox > #numberInput:before {content: ""; background-image: url("../img/icon/call2.png"); background-size:16px 16px; width:16px; height:16px; display:inline-block; position: absolute; top: 0; left: 0; margin:10px 0 0 -7px;}
+        #wrap > #mainBar > #comment > #inputBox > #numberInput > #number {width:100%; height:38px; padding:6px 12px; border:1px solid #ced4da; border-radius: 5px; transition: 0.3s;}
+        #wrap > #mainBar > #comment > #inputBox > #numberInput > #number:focus {box-shadow: 0px 0px 3px 3px #98caff; outline: none; border:1px solid #80BDFF; transition: 0.3s;}
+
+        #wrap > #mainBar > #comment > #inputBox > #emailInput {width:33.3%; height:62px; padding:0 15px; display: flex; align-items: baseline; position: relative;}
+        #wrap > #mainBar > #comment > #inputBox > #emailInput:before {content: ""; background-image: url("../img/icon/message.png"); background-size:16px 16px; width:16px; height:16px; display:inline-block; position: absolute; top: 0; left: 0; margin:10px 0 0 -7px;}
+        #wrap > #mainBar > #comment > #inputBox > #emailInput > #email {width:100%; height:38px; padding:6px 12px; border:1px solid #ced4da; border-radius: 5px; transition: 0.3s;}
+        #wrap > #mainBar > #comment > #inputBox > #emailInput > #email:focus {box-shadow: 0px 0px 3px 3px #98caff; outline: none; border:1px solid #80BDFF; transition: 0.3s;}
+
+        #wrap > #mainBar > #comment > #textarea {width:100%; height:229px; padding:0 15px; position: relative; display: flex; flex-direction: column; justify-content: space-between;}
+        #wrap > #mainBar > #comment > #textarea:before {content: ""; background-image: url("../img/icon/talk2.png"); background-size:16px 16px; width:16px; height:16px; display:inline-block; position: absolute; top: 0; left: 0; margin:10px 0 0 -7px;}
+        #wrap > #mainBar > #comment > #textarea > #comment {width:100%; height:134px; padding:6px 12px; border:1px solid #ced4da; border-radius: 5px; transition: 0.3s; resize: none;}
+        #wrap > #mainBar > #comment > #textarea > #comment:focus {box-shadow: 0px 0px 3px 3px #98caff; outline: none; border:1px solid #80BDFF; transition: 0.3s;}
+        #wrap > #mainBar > #comment > #textarea > button {width:114px; height:38px; background-color: #007BFF; padding:6px 12px; color:#fff; border:none; border-radius: 5px;}
+        #wrap > #mainBar > #comment > #textarea > button:hover {cursor: pointer;}
+
+        /*사이드바*/
+        #wrap > #sideBar {width:100%; height:auto; display: flex; flex-wrap: wrap; justify-content: center;}
+
+        /*검색*/
+        #wrap > #sideBar > #search {width:90%; height:106px; margin:10% auto 3%; }
+        #wrap > #sideBar > #search > h4 {width:100%; height:29px; font-size: 24px; font-family: "Lustria", serif; margin: 0 0 8px;}
+        #wrap > #sideBar > #search > hr {width:12%; height:4px; margin:16px 0; background-color: #DBA94B;}
+        #wrap > #sideBar > #search > input {width:100%; height:38px; padding:6px 12px; border:1px solid #ced4da;  border-radius: 5px; transition: 0.3s;}
+        #wrap > #sideBar > #search > input:focus {box-shadow: 0px 0px 3px 3px #98caff; outline: none; border:1px solid #80BDFF; transition: 0.3s;}
+
+        /*카테고리*/
+        #wrap > #sideBar > #categories {width:45%; height:488px; margin:3% 2%;}
+        #wrap > #sideBar > #categories > h4 {width:100%; height:29px; margin:0 0 8px; font-size: 24px; font-family: "Lustria", serif; margin:0 0 8px}
+        #wrap > #sideBar > #categories > hr {width:12%; height:4px; margin:16px 0; background-color: #DBA94B;}
+        #wrap > #sideBar > #categories > ul {width:100%; height:275px; margin:0 0 16px; display: flex; flex-direction: column;}
+        #wrap > #sideBar > #categories > ul > li {width:95%; height:55px; padding:15px 0; border-bottom: 1px solid #CCC; color:red}
+        #wrap > #sideBar > #categories > ul > li:hover a { color:#dba94b; border-bottom: 1px solid #dba94b; transition: 0.3s; }
+        #wrap > #sideBar > #categories > ul > li:hover a > i{ color:#dba94b; transition: 0.3s; }
+
+        /*최근 포스트*/
+        #wrap > #sideBar > #recentPost {width:45%; height:488px; margin:3% 2%;}
+        #wrap > #sideBar > #recentPost > h4 {width:100%; height:29px; font-size: 24px; font-family: "Lustria", serif; margin:0 0 8px;}
+        #wrap > #sideBar > #recentPost > hr {width:12%; height:4px; margin:16px 0; background-color: #DBA94B;}
+        #wrap > #sideBar > #recentPost > .post {width:100%; height:102px; margin:10px 0; display: flex; justify-content: space-between;}
+        #wrap > #sideBar > #recentPost > .post > img {width:120px; height:80px; margin:10px 0 0;}
+        #wrap > #sideBar > #recentPost > .post > .text {width:70%; height:82px; margin:10px 0; padding:12px; line-height: 1.5;}
+        #wrap > #sideBar > #recentPost > .post > .text > p {width:100%; height:42px; margin:0 0 16px; color:#666; font-size: 14px;}
+        #wrap > #sideBar > #recentPost > .post > .text > p > a {color:#666;}
+
+
+        /*팔로우*/
+        #wrap > #sideBar > #follow {width:45%; height:528px; margin:3% 2%;}
+        #wrap > #sideBar > #follow > h4 {width:100%; height:29px; font-size: 24px; font-family: "Lustria", serif; margin:0 0 8px;}
+        #wrap > #sideBar > #follow > hr {width:12%; height:4px; margin:16px 0; background-color: #DBA94B;}
+        #wrap > #sideBar > #follow > #sns {width:100%; height:79px; padding:10px; display: flex; justify-content: center;}
+        #wrap > #sideBar > #follow > #sns > .snsicon {width:40px; height:40px; border:1px solid #666; margin:3%; display: flex; justify-content: center; align-items: center; transition: 0.3s;}
+        #wrap > #sideBar > #follow > #sns > .snsicon:first-child:hover {background-color:#4267B2; border:none; transition:0.3s; }
+        #wrap > #sideBar > #follow > #sns > .snsicon:first-child:hover i {color:#fff; transition: 0.3s;}
+        #wrap > #sideBar > #follow > #sns > .snsicon:nth-child(2):hover {background-color:#1DA1F2; border:none; transition:0.3s;}
+        #wrap > #sideBar > #follow > #sns > .snsicon:nth-child(2):hover i {color:#fff; transition: 0.3s;}
+        #wrap > #sideBar > #follow > #sns > .snsicon:nth-child(3):hover {background-color:#8a3ab9; border:none; transition:0.3s;}
+        #wrap > #sideBar > #follow > #sns > .snsicon:nth-child(3):hover i {color:#fff; transition: 0.3s}
+        #wrap > #sideBar > #follow > #sns > .snsicon:nth-child(4):hover {background-color:red; border:none; transition:0.3s;}
+        #wrap > #sideBar > #follow > #sns > .snsicon:nth-child(4):hover i {color:#fff; transition: 0.3s}
+        #wrap > #sideBar > #follow > #sns > .snsicon:last-child:hover {background-color:#053eff; border:none; transition:0.3s;}
+        #wrap > #sideBar > #follow > #sns > .snsicon:last-child:hover i {color:#fff; transition: 0.3s;}
+        #wrap > #sideBar > #follow > #sns > .snsicon > i {font-size: 20px; text-align: center;}
+
+        
+        /*마지막 코멘트*/
+        #wrap > #sideBar > #lastestComment {width:45%; height:528px; margin:3% 2%;}
+        #wrap > #sideBar > #lastestComment > h4 {width:100%; height:29px; font-size: 24px; font-family: "Lustria", serif; margin:0 0 8px;}
+        #wrap > #sideBar > #lastestComment > hr {width:12%; height:4px; margin:16px 0; background-color: #DBA94B;}
+        #wrap > #sideBar > #lastestComment > #post1 {width:100%; height:144px; margin:10px 0; display: flex; justify-content: space-between; align-items: center;}
+        #wrap > #sideBar > #lastestComment > #post1 > img {width:80px; height:80px; border-radius: 100%;}
+        #wrap > #sideBar > #lastestComment > #post1 > #visitorComment1 {width:70%; height:auto; margin:10px 0; padding:12px; }
+        #wrap > #sideBar > #lastestComment > #post1 > #visitorComment1 > p {width:100%; height:auto; font-size: 14px; margin:0 0 16px; color:#666; line-height: 1.5;} 
+        #wrap > #sideBar > #lastestComment > #post1 > #visitorComment1 > span {width:100%; height:16px; font-size: 14px; color:#666;} 
+
+        #wrap > #sideBar > #lastestComment > #post2 {width:100%; height:165px; margin:10px 0; display: flex; justify-content: space-between; align-items: center;}
+        #wrap > #sideBar > #lastestComment > #post2 > img {width:80px; height:80px; border-radius: 100%;}
+        #wrap > #sideBar > #lastestComment > #post2 > #visitorComment2 {width:70%; height:auto; margin:10px 0; padding:12px; }
+        #wrap > #sideBar > #lastestComment > #post2 > #visitorComment2 > p {width:100%; height:auto; font-size: 14px; margin:0 0 16px; color:#666; line-height: 1.5;} 
+        #wrap > #sideBar > #lastestComment > #post2 > #visitorComment2 > span {width:100%; height:16px; font-size: 14px; color:#666;} 
+
+        #wrap > #sideBar > #lastestComment > #post3 {width:100%; height:165px; margin:10px 0; display: flex; justify-content: space-between; align-items: center;}
+        #wrap > #sideBar > #lastestComment > #post3 > img {width:80px; height:80px; border-radius: 100%;}
+        #wrap > #sideBar > #lastestComment > #post3 > #visitorComment3 {width:70%; height:auto; margin:10px 0; padding:12px;}
+        #wrap > #sideBar > #lastestComment > #post3 > #visitorComment3 > p {width:100%; height:auto; font-size: 14px; margin:0 0 16px; color:#666; line-height: 1.5;} 
+        #wrap > #sideBar > #lastestComment > #post3 > #visitorComment3 > span {width:100%; height:16px; font-size: 14px; color:#666;}
+
+
+        /*아카이브*/
+        #wrap > #sideBar > #archives {width:45%; height:356px; margin:3% 2%; }
+        #wrap > #sideBar > #archives > h4 {width:100%; height:29px; margin:0 0 8px;}
+        #wrap > #sideBar > #archives > hr {width:12%; height:4px; margin:16px 0; background-color: #DBA94B;}
+        #wrap > #sideBar > #archives > ul {width:100%; height:275px; margin:0 0 16px; display: flex; flex-direction: column;}
+        #wrap > #sideBar > #archives > ul > li {width:100%; height:55px; padding:15px 0; border-bottom: 1px solid #CCC; }
+        #wrap > #sideBar > #archives > ul > li > a {display: flex; justify-content: space-between;}
+        #wrap > #sideBar > #archives > ul > li > span {display: b; float: right;}
+        #wrap > #sideBar > #archives > ul > li:hover p { color:#dba94b; border-bottom: 1px solid #dba94b; transition: 0.3s; }
+        #wrap > #sideBar > #archives > ul > li:hover p > i { color:#dba94b; transition: 0.3s; }
+        #wrap > #sideBar > #archives > ul > li:hover a > span { color:#dba94b; transition: 0.3s;}
+
+
+        /*오픈*/
+        #wrap > #sideBar > #opening {width:45%; height:356px; margin:3% 2%; }
+        #wrap > #sideBar > #opening > h4 {width:100%; height:24px; font-size: 24px; font-family: "Lustria", serif; margin:0 0 8px;}
+        #wrap > #sideBar > #opening > hr {width:12%; height:4px; margin:16px 0; background-color: #DBA94B;}
+        #wrap > #sideBar > #opening > #openBox {width:100%; height:249px; position: relative;}
+        #wrap > #sideBar > #opening > #openBox > img {width:100%; height:100%; }
+        #wrap > #sideBar > #opening > #openBox > #openBoxInner {width:100%; height:100%; position:absolute; top:0; left:0; background-color: black; display: flex; justify-content: center; align-items: center; opacity: 0; transition: 0.5s;}
+        #wrap > #sideBar > #opening > #openBox > #openBoxInner:hover {opacity: 0.5; transition: 0.5s;}
+        #wrap > #sideBar > #opening > #openBox > #openBoxInner > .opentime {width:160px; height:89px;}
+        #wrap > #sideBar > #opening > #openBox > #openBoxInner > .opentime > h3 {width:160px; height:19px; font-family: "Lustria", serif; color:red; margin:10px 0; font-weight: bold; text-align: center;}
+        #wrap > #sideBar > #opening > #openBox > #openBoxInner > .opentime > p {width:160px; height:40px; color:#fff; margin:10px 0; font-size: 14px; line-height: 20px; text-align: center;}
+
+
+        }
